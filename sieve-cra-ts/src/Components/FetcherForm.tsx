@@ -1,34 +1,9 @@
 import * as React from 'react';
+//import axios from 'axios'
 
 import * as mui from '@mui/material';
 
 export default function FetcherForm(props: {callBackSetData:(data: any) => void}) {
-
-    // function useFetch(url: string, opts: any) {
-
-    //     const [response, setResponse] = React.useState({});
-    //     const [loading, setLoading] = React.useState(false);
-    //     const [hasError, setHasError] = React.useState(false);
-
-    //     React.useEffect(() => {
-    //         setLoading(true)
-    //         fetch(url, opts)
-    //         .then(
-    //             (res) => {
-    //                 setResponse(res)
-    //                 setLoading(false)
-    //             }
-    //         )
-    //         .catch(() => {
-    //             setHasError(true)
-    //             setLoading(false)
-    //         })
-    //     },
-    //     // eslint-disable-next-line react-hooks/exhaustive-deps
-    //     [ url ]);
-
-    //     return [ response, loading, hasError ];
-    // }
 
     const [nValue, setnValue] = React.useState(
         {value:10, valid:true}
@@ -40,7 +15,8 @@ export default function FetcherForm(props: {callBackSetData:(data: any) => void}
 
         //try fetch
         const response = await window.fetch(
-            "http://localhost:8080/sieve/" +  nValue.value
+            //"http://localhost:8080/sieve/" +  nValue.value
+            "/sieve/" +  nValue.value
         );
 
         if(!response.ok){
@@ -59,7 +35,7 @@ export default function FetcherForm(props: {callBackSetData:(data: any) => void}
         console.log(data);
 
         props.callBackSetData(data);
-    }
+    };
 
     return (
         <>
