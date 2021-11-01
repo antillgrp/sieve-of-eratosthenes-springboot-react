@@ -17,7 +17,7 @@ Note: it's necessary to make sure the react web app runs in the actual embeded f
 
 ![](AppRunning.png)
 
-#### GitHub Repo:<br /> [https://github.com/antillgrp/replit-springboot-092021](https://github.com/antillgrp/replit-springboot-092021.git)<br /><br />Live replit.com playgroung:<br /> [https://replit.com/@antillgrp/sieve-of-eratosthenes-springboot-react](https://replit.com/@antillgrp/sieve-of-eratosthenes-springboot-react)
+#### GitHub Repo:<br /> [https://github.com/antillgrp/sieve-of-eratosthenes-springboot-react](https://github.com/antillgrp/sieve-of-eratosthenes-springboot-react.git)<br /><br />Live replit.com playgroung:<br /> [https://replit.com/@antillgrp/sieve-of-eratosthenes-springboot-react](https://replit.com/@antillgrp/sieve-of-eratosthenes-springboot-react)
 <br />
 
 Question 2:
