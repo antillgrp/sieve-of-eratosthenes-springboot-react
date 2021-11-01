@@ -34,7 +34,7 @@
     "start": "npm-run-all -n -l -p start:ui start:run",
     "start:run": "mvn -f ../sieve-srv-w-test/pom.xml spring-boot:run",
     "start:jar": "java -jar ../sieve-srv-w-test/target/sieve-0.0.1-SNAPSHOT.jar",
-    "start:ui": "react-scripts start",
+    "start:ui": "BROWSER=none react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
