@@ -187,6 +187,7 @@ export default function PrimeFinderAnimation(
         </mui.Grid>
         <mui.Grid item>
         <mui.TableContainer component={mui.Paper}>
+            <mui.Table>
             <mui.TableBody>
             {
                 state.colorMatrix
@@ -220,6 +221,7 @@ export default function PrimeFinderAnimation(
                 })
             }
             </mui.TableBody>
+            </mui.Table>
         </mui.TableContainer>
         </mui.Grid>
         </mui.Grid>
