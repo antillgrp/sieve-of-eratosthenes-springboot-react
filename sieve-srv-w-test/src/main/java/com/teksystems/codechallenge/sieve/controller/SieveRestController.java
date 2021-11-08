@@ -26,10 +26,10 @@ public class SieveRestController {
     this.sieveService = sieveService;
   }
 
-  // @RequestMapping("/")
-  // public @ResponseBody String appName() {
-  //   return "Sieve of Eratosthenes";
-  // }
+  @RequestMapping("/test")
+  public @ResponseBody String appName() {
+    return "Sieve of Eratosthenes";
+  }
 
   @GetMapping(path = "sieve/{n}", produces = "application/JSON")
   // @CrossOrigin(origins = "*", allowedHeaders = "*")
