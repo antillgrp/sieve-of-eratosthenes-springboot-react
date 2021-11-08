@@ -1,1 +1,1 @@
-run="yarn --cwd sieve-cra-ts/ start"
+run="yarn --cwd sieve-cra-ts/ && yarn --cwd sieve-cra-ts/ start"
